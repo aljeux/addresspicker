@@ -7,7 +7,7 @@ for a specific need but feel free to use it or fork the repository
 #Usage
 Put *addresspicker into your extensions folder. Then add the following code to use it:
 
-<pre>
+```php
 <?php $this->widget('application.extensions.addresspicker.addresspicker', array(
 	'appendAddressString' => ', France',
 	'address' => '#House_address',
@@ -16,11 +16,11 @@ Put *addresspicker into your extensions folder. Then add the following code to u
 	'lng' => '#House_longitude',
 	'map' => '#map'));
 ?>
-</pre>
+```
 
 See directly the jquery-addresspicker on github for more.
 
 #Credits 
 
-Alain Peyrat - Yii extension
-Sébastien Gruhier - JQuery plugin, https://github.com/sgruhier/jquery-addresspicker
+* Alain Peyrat - Yii extension
+* Sébastien Gruhier - JQuery plugin, https://github.com/sgruhier/jquery-addresspicker
